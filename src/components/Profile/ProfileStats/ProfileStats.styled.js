@@ -2,8 +2,10 @@ import styled from '@emotion/styled';
 
 export const Stats = styled.ul`
   display: flex;
-  margin: 0;
+  width: 400px;
+  margin-bottom: 0;
   padding: 0;
+  justify-content: space-between;
   border-radius: 5px;
   box-shadow: 0px 2px 5px rgb(217, 213, 213, 0.5);
   list-style: none;
@@ -12,8 +14,9 @@ export const Stats = styled.ul`
 export const StatsInfo = styled.li`
   display: flex;
   flex-direction: column;
-  border-right: 2px solid rgb(255, 255, 255);
-  background-color: rgb(195, 216, 218);
+  border-radius: 5px;
+  border: 2px solid lightblue;
+  background-color: white;
   padding-left: 41px;
   padding-right: 40px;
   padding-top: 20px;
@@ -21,9 +24,6 @@ export const StatsInfo = styled.li`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  &:nth-last-of-type(1) {
-    border-right: none;
-  }
 `;
 
 export const Label = styled.p`

@@ -9,8 +9,8 @@ export const Description = styled.div`
   padding: 40px;
   padding-bottom: 20px;
   gap: 10px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 5px ${p => p.theme.colors.wrapper};
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgb(217, 213, 213, 0.5);
 `;
 
 export const Avatar = styled.img`

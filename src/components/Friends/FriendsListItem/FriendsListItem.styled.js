@@ -8,6 +8,7 @@ export const Item = styled.li`
   margin: 0;
   width: 100%;
   gap: 30px;
+  border-radius: 4px;
   background-color: white;
   box-shadow: 2px 3px 5px gray;
 `;

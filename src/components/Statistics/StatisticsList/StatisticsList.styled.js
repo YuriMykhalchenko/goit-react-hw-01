@@ -7,6 +7,9 @@ export const StatList = styled.ul`
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding-bottom: 2px;
-  box-shadow: 2px 5px 10px gray;
+  box-shadow: 0px 2px 5px rgb(217 213 213);
+  background-color: ${p => p.theme.colors.secondary};
 `;

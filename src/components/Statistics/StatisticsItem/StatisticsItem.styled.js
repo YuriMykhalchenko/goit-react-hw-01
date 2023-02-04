@@ -6,6 +6,7 @@ export const Item = styled.li`
   align-items: center;
   padding: 16px;
   margin: auto;
+  border-radius: 4px;
   color: ${p => p.theme.colors.secondary};
 `;
 

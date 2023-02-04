@@ -13,6 +13,6 @@ export const TableBody = styled.tbody`
     background-color: white;
   }
   &:nth-of-type(odd) {
-    background-color: rgb(207, 253, 249);
+    background-color: lightblue;
   }
 `;

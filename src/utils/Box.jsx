@@ -6,7 +6,6 @@ import {
   color,
   flexbox,
   background,
-  border,
   position,
   shadow,
   typography,
@@ -18,7 +17,6 @@ export const Box = styled.div`
   ${color}
   ${flexbox}
   ${background}
-  ${border}
   ${position}
   ${shadow}
   ${typography}
